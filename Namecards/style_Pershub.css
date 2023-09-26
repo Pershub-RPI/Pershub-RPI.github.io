@@ -4,7 +4,7 @@
 }
 
 html {
-  width: 100vw;
+  width: 100%;
 }
 body {
   display: grid;
@@ -18,14 +18,14 @@ body {
 }
 @media screen  and (orientation:landscape) {
   .NamecardImageDiv{
-  height: 100vh;
+  height: 100%;
 }  }
 
 .NamecardImage {
-  max-width: 96vw;
-  max-height: 96vh;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  max-width: 96%;
+  max-height: 96%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   border-radius: 8px;
 }
 
@@ -35,12 +35,12 @@ body {
 }
 @media screen  and (orientation:portrait) {
 .button-container-div {
-    margin-top: 40vh;
+    margin-top: 40%;
 }  }
 @media screen  and (orientation:landscape) {
 .button-container-div {
-  margin-top: 10vh;
-  margin-bottom: 10vh;/*push the footer down in landscape*/
+  margin-top: 10%;
+  margin-bottom: 10%;/*push the footer down in landscape*/
 }  }
 
 .btn {
