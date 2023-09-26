@@ -1,0 +1,93 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+html {
+  width: 100vw;
+}
+body {
+  display: grid;
+  background-color: black;
+}
+/* image */
+.NamecardImageDiv{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+@media screen  and (orientation:landscape) {
+  .NamecardImageDiv{
+  height: 100vh;
+}  }
+
+.NamecardImage {
+  max-width: 96vw;
+  max-height: 96vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-radius: 8px;
+}
+
+/* Style buttons*/
+.button-container-div {
+  text-align: center;
+}
+@media screen  and (orientation:portrait) {
+.button-container-div {
+    margin-top: 40vh;
+}  }
+@media screen  and (orientation:landscape) {
+.button-container-div {
+  margin-top: 10vh;
+  margin-bottom: 10vh;/*push the footer down in landscape*/
+}  }
+
+.btn {
+  width: min(50vw,80vh);
+  height: 15vw;
+
+  background-color: rgba(81,160,213,1);
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  font-family: Calibri, serif;
+  font-size: max(3vh,4vw);
+
+  border-radius: 12px;
+
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: #51A0D5;
+  color: white;
+  font-family: Calibri, serif;
+  font-size: max(2vh,2vw);
+  text-align: center;
+}
+@media screen  and (orientation:portrait) {
+.footer {
+   position: fixed;
+   bottom: 0;
+}  }
