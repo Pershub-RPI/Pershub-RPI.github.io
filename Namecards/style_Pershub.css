@@ -87,7 +87,7 @@ body {
     justify-content:center;
   }
   .NamecardImage {
-    max-width: 40vw;
+    width: 40vw;
     max-height: 96vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
