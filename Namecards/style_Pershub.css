@@ -81,16 +81,16 @@ body {
 
 @media screen  and (orientation:landscape) {
   .NamecardImageDiv {
-    height: 100vw;
+    height: 100vh;
     display:flex;
     align-items:center;
     justify-content:center;
   }
   .NamecardImage {
-    max-width: 80%;
-    max-height: 96%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    max-width: 80vw;
+    max-height: 96vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     border-radius: 8px;
   }
   .button-container-div {
