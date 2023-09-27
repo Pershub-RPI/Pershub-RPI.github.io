@@ -14,9 +14,13 @@ body {
   justify-content:center;
 }
 @media screen  and (orientation:landscape) {
-  .NamecardImageDiv{
-  height: 100%;
+  .NamecardImageDiv {
+    height: 100%;
+  }
+  .NamecardImage {
+  height: 80%;
 }  }
+
 
 .NamecardImage {
   max-width: 96%;
