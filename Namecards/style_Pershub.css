@@ -7,43 +7,9 @@ body {
   display: grid;
   background-color: black;
 }
-/* image */
-.NamecardImageDiv{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-@media screen  and (orientation:landscape) {
-  .NamecardImageDiv {
-    height: 100%;
+.button-container-div {
+    text-align: center;
   }
-  .NamecardImage {
-  height: 80%;
-}  }
-
-
-.NamecardImage {
-  max-width: 96%;
-  max-height: 96%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  border-radius: 8px;
-}
-
-/* Style buttons*/
-.button-container-div {
-  text-align: center;
-}
-@media screen  and (orientation:portrait) {
-.button-container-div {
-    margin-top: 40%;
-}  }
-@media screen  and (orientation:landscape) {
-.button-container-div {
-  margin-top: 10%;
-  margin-bottom: 10%;/*push the footer down in landscape*/
-}  }
-
 .btn {
   width: min(50vw,80vh);
   height: 15vw;
@@ -80,8 +46,6 @@ body {
 }
 
 .footer {
-
-
   width: 100%;
   background-color: #51A0D5;
   color: white;
@@ -89,8 +53,48 @@ body {
   font-size: max(2vh,2vw);
   text-align: center;
 }
+
 @media screen  and (orientation:portrait) {
-.footer {
-   position: fixed;
-   bottom: 0;
-}  }
+/* image */
+  .NamecardImageDiv{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .NamecardImage {
+    max-width: 96%;
+    max-height: 96%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 8px;
+  }
+/* Style buttons*/
+  .button-container-div {
+    margin-top: 40%;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media screen  and (orientation:landscape) {
+  .NamecardImageDiv {
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .NamecardImage {
+    max-width: 80%;
+    max-height: 96%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 8px;
+  }
+  .button-container-div {
+    margin-top: 10%;
+    margin-bottom: 10%;/*push the footer down in landscape*/
+  }
+}
