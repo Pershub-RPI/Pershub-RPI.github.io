@@ -74,8 +74,8 @@ body {
     bottom: 0;
   }
   .btn{
-    width: 55%;
-    height: 10%;
+    width: 55lvw;
+    height: 10lvh;
     font-size: 2.5vh;
   }
 }
