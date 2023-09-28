@@ -11,16 +11,12 @@ body {
     text-align: center;
   }
 .btn {
-  width: min(50vw,80vh);
-  height: 15vw;
-
   background-color: rgba(81,160,213,1);
   border: none;
   color: white;
   cursor: pointer;
 
   font-family:"Calibri", sans-serif;
-  font-size: max(3vh,4vw);
 
   border-radius: 12px;
 
@@ -62,20 +58,25 @@ body {
     justify-content:center;
   }
   .NamecardImage {
-    max-width: 96%;
-    max-height: 96%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    max-width: 96vw;
+    max-height: 96vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     border-radius: 8px;
   }
 /* Style buttons*/
   .button-container-div {
-    margin-top: 40%;
+    margin-top: 40vh;
   }
 
   .footer {
     position: fixed;
     bottom: 0;
+  }
+  .btn{
+    width: 55vw;
+    height: 7vh;
+    font-size: 2.5vh;
   }
 }
 
@@ -95,6 +96,11 @@ body {
   }
   .button-container-div {
     margin-top: 10vh;
-    margin-bottom: 10vh;/*push the footer down in landscape*/
+    margin-bottom: 15vh;/*push the footer down in landscape*/
+  }
+  .btn{
+    max-width: 30vw;
+    height: 15vh;
+    font-size: 3vw;
   }
 }
