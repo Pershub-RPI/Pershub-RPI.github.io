@@ -87,10 +87,10 @@ body {
     justify-content:center;
   }
   .NamecardImage {
-    max-width: 95svw;
-    max-height: 95svh;
-    margin-top: 1svh;
-    margin-bottom: 1svh;
+    max-width: 80lvw;
+    max-height: 80lvh;
+    margin-top: 1lvh;
+    margin-bottom: 1lvh;
     border-radius: 8px;
   }
   .button-container-div {
