@@ -11,7 +11,7 @@ body {
 .button {
 	display: flex;
 	height: 50px;
-	min-width: 75vw;
+	min-width: 75lvw;
 	padding: 0;
 	background: #51A0D5;
 	border: none;
