@@ -11,7 +11,7 @@ body {
 .button {
 	display: flex;
 	height: 50px;
-	width: 100lvw;
+	min-width: 80lvw;
 	padding: 0;
 	background: #51A0D5;
 	border: none;
@@ -20,7 +20,7 @@ body {
 	overflow: hidden;
 	white-space: nowrap;
 	font-family: "Quicksand", sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 500;
 	cursor: pointer;
 }
